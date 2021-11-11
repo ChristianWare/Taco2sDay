@@ -1,17 +1,26 @@
+import Link from "next/link";
 import styles from "../../styles/Hero.module.css";
-import Button from "../components/utils/Buttons";
+import Button from "./utils/Buttons";
+
+import { BsFacebook, BsInstagram, BsTwitter } from "react-icons/bs";
 
 function Hero() {
   return (
-    <div className={styles.heroContainer} id='home'>
-      <div className={styles.contentContainer}>
-        <h2>Ready Fast Food And Restaurant</h2>
-        <h1>Enjoy our special food Great Quality Every Day</h1>
+    <section className={styles.heroContainer}>
+      <div className={styles.heroContent}>
+        <h1>LIVE MAS</h1>
+        <p>
+          Living Más is the hub for all things Taco Bell. We are a site built by
+          fans for fellow fans. Living Más is the hub for all things Taco Bell.
+          We are a site built by fans for fellow fans.
+        </p>
         <div className={styles.btnContainer}>
-          <Button type='primaryBtn' label='Meet Our Chef' />
+          <Button type='tertiaryBtn' href='/' label='menu' />
+          <Button type='secondaryBtn' href='/' label='Locations' />
+          <Button type='primaryBtn' href='/' label='Order Now' />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -9,6 +9,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 3rem 1.5rem;
+    background-color: transparent;
 }
 
 .navbar .navbarLogo {

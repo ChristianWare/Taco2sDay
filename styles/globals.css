@@ -45,6 +45,26 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 1.2rem;
 }
 
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 4.8rem;
+}
+
+h3 {
+  font-size: 4rem;
+}
+
+h4 {
+  font-size: 3.2rem;
+}
+
+h5 {
+  font-size: 2.5rem;
+}
+
 ::before,
 ::after {
   box-sizing: border-box;

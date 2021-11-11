@@ -1,0 +1,24 @@
+.headerSection {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url('../public/images/image.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;       
+}
+
+.content {
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 50px;
+    padding-left: 50px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 568px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
